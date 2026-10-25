@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ruru
+GenericName=Local speech to text service
+Comment=Private offline dictation engine — starts the local speech service and shows its status. Audio never leaves this computer.
+Exec=/home/idofront/.local/share/ruru/ruru-open
+Terminal=false
+Icon=ruru
+Categories=AudioVideo;Audio;Utility;
+Keywords=speech;voice;dictation;transcribe;transcription;stt;asr;local;private;offline;bark;ruru;typing;
+StartupNotify=false

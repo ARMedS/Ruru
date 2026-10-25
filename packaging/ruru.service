@@ -1,0 +1,19 @@
+[Unit]
+Description=Ruru local speech-to-text service
+Documentation=file:///home/idofront/IDOFRONT/01_Active_Projects/Ruru/README.md
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/home/idofront/.local/share/ruru/rurud
+Restart=on-failure
+RestartSec=5
+Nice=10
+# A 705 MB model in VRAM plus a few hundred MB of host buffers.
+MemoryMax=2G
+# The engine dlopens its backend modules from this directory.
+Environment=RURU_ARTIFACT_DIR=/home/idofront/.local/share/ruru/lib
+Environment=RURU_MODEL=/home/idofront/.local/share/ruru/models/underdog-bark-3.0-clean-Q8_0.gguf
+
+[Install]
+WantedBy=default.target

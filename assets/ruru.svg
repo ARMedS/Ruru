@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Ruru (morepork) — New Zealand's listening owl. Night sky tile with
+       concentric sound rings, so the icon reads as "it listens". -->
+  <rect width="256" height="256" rx="48" fill="#1c2333"/>
+  <!-- sound rings -->
+  <g fill="none" stroke="#5fb3c9" stroke-width="7" stroke-linecap="round" opacity="0.85">
+    <circle cx="128" cy="150" r="92"/>
+    <circle cx="128" cy="150" r="62" opacity="0.7"/>
+    <circle cx="128" cy="150" r="32" opacity="0.55"/>
+  </g>
+  <!-- owl body -->
+  <path d="M128 66c-30 0-52 22-52 54 0 40 24 74 52 74s52-34 52-74c0-32-22-54-52-54z" fill="#f2c14e"/>
+  <!-- ear tufts -->
+  <path d="M92 74c-6-14-4-24 2-30 4 10 10 16 18 20z" fill="#e0a92e"/>
+  <path d="M164 74c6-14 4-24-2-30-4 10-10 16-18 20z" fill="#e0a92e"/>
+  <!-- face disc -->
+  <ellipse cx="128" cy="126" rx="40" ry="34" fill="#f8e6b8"/>
+  <!-- eyes -->
+  <circle cx="110" cy="122" r="13" fill="#1c2333"/>
+  <circle cx="146" cy="122" r="13" fill="#1c2333"/>
+  <circle cx="114" cy="118" r="4.5" fill="#ffffff"/>
+  <circle cx="150" cy="118" r="4.5" fill="#ffffff"/>
+  <!-- beak -->
+  <path d="M128 132l-8 12 8 6 8-6z" fill="#d98b28"/>
+  <!-- chest flecks -->
+  <g fill="#e0a92e" opacity="0.8">
+    <ellipse cx="112" cy="168" rx="7" ry="9"/>
+    <ellipse cx="144" cy="168" rx="7" ry="9"/>
+    <ellipse cx="128" cy="184" rx="8" ry="10"/>
+  </g>
+</svg>
